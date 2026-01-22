@@ -106,17 +106,8 @@ footer {
 .footer-text {
   font-size: 14px;
 }
-.bio {
-  margin-top: 35px;
-  text-align: center;
-}
+/* === FINAL BIO FIX (NO CONFLICT) === */
 
-.bio h2 {
-  color: #556b2f;
-  margin-bottom: 20px;
-}
-
-/* HARD RESET FOR BIO ALIGNMENT */
 .bio-wrap {
   text-align: left !important;
 }
@@ -126,6 +117,13 @@ footer {
   margin: 35px auto;
 }
 
+/* عنوان البايو فقط */
+.bio h2 {
+  text-align: center !important;
+  margin-bottom: 22px;
+}
+
+/* نص البايو */
 .bio p {
   text-align: justify !important;
   line-height: 1.8;
