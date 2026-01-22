@@ -108,12 +108,12 @@ footer {
 }
 .bio {
   margin-top: 35px;
-  text-align: justify;
+  text-align: center;
 }
 
 .bio h2 {
   color: #556b2f;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 /* HARD RESET FOR BIO ALIGNMENT */
