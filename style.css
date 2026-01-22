@@ -1,7 +1,8 @@
+/* ---------- Main Styles ---------- */
 body {
-  background-color: #b2d8b2; /* فستقي */
-  color: #556b2f; /* كتابة زيتوني */
-  font-family: Times New Roman, sans-serif;
+  background-color: #b2d8b2; /* خلفية فستقي هادئ */
+  color: #556b2f; /* نصوص زيتوني داكن */
+  font-family: "Times New Roman", Times, serif;
   margin: 0;
   padding: 0;
 }
@@ -20,7 +21,7 @@ body {
 }
 
 .navbar a:hover {
-  color: #ffdd57;
+  color: #ffdd57; /* أصفر عند المرور على الرابط */
 }
 
 .container {
@@ -31,16 +32,16 @@ body {
 }
 
 .profile-img {
-  width: 250px;
-  height: 250px; /* الصورة كما هي بدون تدوير */
-  border-radius: 50%;
-  border: 3px solid var(--navbar-footer-color);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* يجعل الصورة دائرية */
+  border: 3px solid #556b2f; /* إطار بنفس لون Navbar */
 }
 
 footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
-  color: #b2d8b2; /* نص الفوتر زيتوني */
+  color: #ffffff; /* نص الفوتر أبيض */
   background-color: #556b2f; /* خلفية الفوتر زيتوني */
 }
