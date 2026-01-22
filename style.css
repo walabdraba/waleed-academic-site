@@ -1,57 +1,57 @@
+/* Body and text */
 body {
+  background-color: #f5f7fa; /* خلفية فاتحة */
+  color: #222222; /* نص أسود داكن */
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: "Segoe UI", Times New Roman, sans-serif;
-  background-color: #eef2f5;
-  color: #222;
+  padding: 0;
 }
 
+/* Navbar */
 .navbar {
-  background: #0a3d62;
+  background-color: #77dd77; /* الفستقي */
   padding: 12px;
   text-align: center;
 }
 
 .navbar a {
-  color: white;
-  margin: 0 15px;
+  color: #ffffff; /* روابط بيضاء */
   text-decoration: none;
+  padding: 10px 15px;
   font-weight: bold;
 }
 
 .navbar a:hover {
-  text-decoration: underline;
+  color: #ffdd57; /* أصفر عند المرور */
 }
 
+/* Container */
 .container {
   max-width: 900px;
-  margin: 40px auto;
-  padding: 40px;
-  background: white;
-  border-radius: 8px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Profile Picture */
+.profile {
+  text-align: center;
+  margin: 20px 0;
 }
 
 .profile-img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* يجعل الصورة دائرية */
+  border: 3px solid #77dd77; /* إطار فستقي */
   object-fit: cover;
-  display: block;
-  margin: 0 auto 20px;
 }
 
-h1, h2 {
-  color: #0a3d62;
-}
-
-ul li {
-  margin-bottom: 10px;
-  line-height: 1.6;
-}
-
+/* Footer */
 footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
-  color: #306063;
-  border-top: 1px solid #ccc;
+  color: #ffffff;
+  background-color: #77dd77;
 }
