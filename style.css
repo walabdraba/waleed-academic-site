@@ -129,20 +129,3 @@ footer {
   line-height: 1.8;
   font-size: 16px;
 }
-/* Arabic RTL Support */
-html[dir="rtl"] {
-  direction: rtl;
-}
-
-html[dir="rtl"] .bio p {
-  text-align: justify;
-}
-/* Ensure navbar links are visible in RTL */
-html[dir="rtl"] .navbar {
-  direction: rtl;
-  text-align: center;
-}
-
-html[dir="rtl"] .navbar a {
-  display: inline-block;
-}
