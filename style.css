@@ -1,7 +1,7 @@
 body {
-  background-color: #77dd77; /* فستقي */
+  background-color: #b2d8b2; /* فستقي */
   color: #556b2f; /* كتابة زيتوني */
-  font-family: Arial, sans-serif;
+  font-family: Times New Roman, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -31,14 +31,16 @@ body {
 }
 
 .profile-img {
-  width: 150px;
-  height: 150px; /* الصورة كما هي بدون تدوير */
+  width: 250px;
+  height: 250px; /* الصورة كما هي بدون تدوير */
+  border-radius: 50%;
+  border: 3px solid var(--navbar-footer-color);
 }
 
 footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
-  color: #556b2f; /* نص الفوتر زيتوني */
+  color: #b2d8b2; /* نص الفوتر زيتوني */
   background-color: #556b2f; /* خلفية الفوتر زيتوني */
 }
