@@ -137,3 +137,12 @@ html[dir="rtl"] {
 html[dir="rtl"] .bio p {
   text-align: justify;
 }
+/* Ensure navbar links are visible in RTL */
+html[dir="rtl"] .navbar {
+  direction: rtl;
+  text-align: center;
+}
+
+html[dir="rtl"] .navbar a {
+  display: inline-block;
+}
