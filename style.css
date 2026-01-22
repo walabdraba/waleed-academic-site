@@ -1,31 +1,29 @@
 /* Body and text */
 body {
-  background-color: #f5f7fa; /* خلفية فاتحة */
-  color: #222222; /* نص أسود داكن */
+  background-color: #f5f7fa; 
+  color: #222222; 
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Navbar */
 .navbar {
-  background-color: #77dd77; /* الفستقي */
+  background-color: #77dd77; 
   padding: 12px;
   text-align: center;
 }
 
 .navbar a {
-  color: #ffffff; /* روابط بيضاء */
+  color: #ffffff; 
   text-decoration: none;
   padding: 10px 15px;
   font-weight: bold;
 }
 
 .navbar a:hover {
-  color: #ffdd57; /* أصفر عند المرور */
+  color: #ffdd57; 
 }
 
-/* Container */
 .container {
   max-width: 900px;
   margin: 0 auto;
@@ -33,7 +31,6 @@ body {
   text-align: center;
 }
 
-/* Profile Picture */
 .profile {
   text-align: center;
   margin: 20px 0;
@@ -42,12 +39,11 @@ body {
 .profile-img {
   width: 150px;
   height: 150px;
-  border-radius: 50%; /* يجعل الصورة دائرية */
-  border: 3px solid #77dd77; /* إطار فستقي */
+  border-radius: 50%; 
+  border: 3px solid #77dd77; 
   object-fit: cover;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 20px;
