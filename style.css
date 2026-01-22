@@ -45,3 +45,46 @@ footer {
   color: #ffffff; /* نص الفوتر أبيض */
   background-color: #556b2f; /* خلفية الفوتر زيتوني */
 }
+.academic-icons {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.academic-icons h2 {
+  color: #556b2f;
+  margin-bottom: 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.icons a {
+  background-color: #ffffff;
+  color: #556b2f;
+  width: 140px;
+  height: 120px;
+  text-decoration: none;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  transition: all 0.3s ease;
+}
+
+.icons a span {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.icons a:hover {
+  background-color: #556b2f;
+  color: #ffffff;
+  transform: translateY(-5px);
+}
