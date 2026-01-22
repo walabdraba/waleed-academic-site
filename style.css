@@ -129,3 +129,11 @@ footer {
   line-height: 1.8;
   font-size: 16px;
 }
+/* Arabic RTL Support */
+html[dir="rtl"] {
+  direction: rtl;
+}
+
+html[dir="rtl"] .bio p {
+  text-align: justify;
+}
