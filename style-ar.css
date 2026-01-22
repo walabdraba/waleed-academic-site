@@ -1,0 +1,14 @@
+/* Arabic RTL Styles */
+
+body {
+  direction: rtl;
+  font-family: "Times New Roman", serif;
+}
+
+.bio-wrap {
+  text-align: right;
+}
+
+.bio p {
+  text-align: justify;
+}
