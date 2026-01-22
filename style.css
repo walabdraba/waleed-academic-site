@@ -1,131 +1,34 @@
-/* ---------- Main Styles ---------- */
 body {
-  background-color: #bbbfb4; /* خلفية فستقي هادئ */
-  color: #556b2f; /* نصوص زيتوني داكن */
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", serif;
+  background-color: #f4f6f2;
+  color: #556b2f;
   margin: 0;
   padding: 0;
 }
 
 .navbar {
-  background-color: #556b2f; /* شريط زيتوني */
-  padding: 12px;
+  background-color: #6b8e23;
+  padding: 15px;
   text-align: center;
 }
 
 .navbar a {
-  color: #0000ff; /* روابط زرقاء */
+  color: blue;
   text-decoration: none;
-  padding: 10px 15px;
+  margin: 0 12px;
   font-weight: bold;
-}
-
-.navbar a:hover {
-  color: #ffdd57; /* أصفر عند المرور على الرابط */
 }
 
 .container {
   max-width: 900px;
-  margin: 0 auto;
+  margin: auto;
   padding: 20px;
-  text-align: center;
-}
-
-.profile-img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%; /* يجعل الصورة دائرية */
-  border: 3px solid #556b2f; /* إطار بنفس لون Navbar */
 }
 
 footer {
+  background-color: #6b8e23;
+  color: white;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   margin-top: 40px;
-  color: #ffffff; /* نص الفوتر أبيض */
-  background-color: #556b2f; /* خلفية الفوتر زيتوني */
-}
-.academic-icons {
-  margin-top: 35px;
-  text-align: center;
-}
-
-.academic-icons h2 {
-  color: #556b2f;
-  margin-bottom: 20px;
-}
-
-.icons {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.icons a {
-  background-color: #ffffff;
-  color: #556b2f;
-  width: 140px;
-  height: 120px;
-  text-decoration: none;
-  border-radius: 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 28px;
-  transition: all 0.3s ease;
-}
-
-.icons a span {
-  margin-top: 8px;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.icons a:hover {
-  background-color: #556b2f;
-  color: #ffffff;
-  transform: translateY(-5px);
-}
-.footer-icons {
-  margin-bottom: 10px;
-}
-
-.footer-icons a {
-  font-size: 24px;
-  margin: 0 10px;
-  text-decoration: none;
-  transition: transform 0.3s ease;
-}
-
-.footer-icons a:hover {
-  transform: scale(1.2);
-}
-
-.footer-text {
-  font-size: 14px;
-}
-/* === FINAL BIO FIX (NO CONFLICT) === */
-
-.bio-wrap {
-  text-align: left !important;
-}
-
-.bio {
-  max-width: 750px;
-  margin: 35px auto;
-}
-
-/* عنوان البايو فقط */
-.bio h2 {
-  text-align: center !important;
-  margin-bottom: 22px;
-}
-
-/* نص البايو */
-.bio p {
-  text-align: justify !important;
-  line-height: 1.8;
-  font-size: 16px;
 }
