@@ -123,3 +123,14 @@ footer {
   line-height: 1.8;
   font-size: 16px;
 }
+.bio {
+  text-align: left;      /* يكسر محاذاة الوسط الموروثة */
+}
+
+.bio p {
+  max-width: 750px;
+  margin: 0 auto 15px auto;
+  text-align: justify;   /* كشيدة */
+  line-height: 1.8;
+  font-size: 16px;
+}
