@@ -1,26 +1,26 @@
 body {
-  background-color: #f5f7fa; 
-  color: #222222; 
+  background-color: #77dd77; /* فستقي */
+  color: #556b2f; /* كتابة زيتوني */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 .navbar {
-  background-color: #77dd77; 
+  background-color: #556b2f; /* شريط زيتوني */
   padding: 12px;
   text-align: center;
 }
 
 .navbar a {
-  color: #ffffff; 
+  color: #0000ff; /* روابط زرقاء */
   text-decoration: none;
   padding: 10px 15px;
   font-weight: bold;
 }
 
 .navbar a:hover {
-  color: #ffdd57; 
+  color: #ffdd57;
 }
 
 .container {
@@ -30,23 +30,15 @@ body {
   text-align: center;
 }
 
-.profile {
-  text-align: center;
-  margin: 20px 0;
-}
-
 .profile-img {
   width: 150px;
-  height: 150px;
-  border-radius: 50%; 
-  border: 3px solid #77dd77; 
-  object-fit: cover;
+  height: 150px; /* الصورة كما هي بدون تدوير */
 }
 
 footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
-  color: #ffffff;
-  background-color: #77dd77;
+  color: #556b2f; /* نص الفوتر زيتوني */
+  background-color: #556b2f; /* خلفية الفوتر زيتوني */
 }
