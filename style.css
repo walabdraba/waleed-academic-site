@@ -129,6 +129,7 @@ footer {
   line-height: 1.8;
   font-size: 16px;
 }
-.container ulli {
+.container ul li {
   text-align: justify;
+  margin-bottom: 6px;
 }
