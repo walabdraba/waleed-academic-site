@@ -22,7 +22,16 @@
 .supervision-list strong {
   font-weight: bold;
 }
+.supervision-divider {
+  border: none;
+  border-top: 2px solid #6b8e23;
+  margin: 40px 0;
+}
 
+.supervision-section h2 {
+  font-size: 1.3em;
+  letter-spacing: 0.5px;
+}
 .supervision-list em {
   display: block;
   font-style: italic;
