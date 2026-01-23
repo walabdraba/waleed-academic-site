@@ -1,0 +1,29 @@
+/* Supervision Page Styles */
+
+.supervision-section {
+  margin-top: 30px;
+}
+
+.supervision-section h2 {
+  margin-bottom: 15px;
+  color: #556b2f;
+}
+
+.supervision-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.supervision-list li {
+  margin-bottom: 18px;
+  line-height: 1.6;
+}
+
+.supervision-list strong {
+  font-weight: bold;
+}
+
+.supervision-list em {
+  display: block;
+  font-style: italic;
+}
