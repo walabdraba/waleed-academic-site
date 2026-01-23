@@ -36,3 +36,6 @@
   display: block;
   font-style: italic;
 }
+.supervision-list li {
+  text-align: justify;
+}
