@@ -129,3 +129,6 @@ footer {
   line-height: 1.8;
   font-size: 16px;
 }
+.teaching-list li {
+  text-align: justify;
+}
