@@ -129,6 +129,6 @@ footer {
   line-height: 1.8;
   font-size: 16px;
 }
-.teaching-list li {
+.container ul li {
   text-align: justify;
 }
